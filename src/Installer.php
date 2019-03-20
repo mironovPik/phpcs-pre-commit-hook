@@ -1,16 +1,11 @@
 <?php
 
-namespace PHPCodeChecker;
+namespace PHPLinter;
 
 class Installer
 {
-    public static function postInstall()
+    public static function install()
     {
-        if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
-            system('cmd /c vendor\wickedreports\phpcs-pre-commit-hook\src\setup.bat');
-        }
-        else {
-            system('sh vendor/wickedreports/phpcs-pre-commit-hook/src/setup.sh');
-        }
+        system('sh vendor/wickedreports/phpcs-pre-commit-hook/src/setup.sh');
     }
 }
