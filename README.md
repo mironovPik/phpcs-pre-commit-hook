@@ -9,15 +9,15 @@ Inspired by [Enforce code standards with composer, git hooks, and phpcs](http://
 
 ## Installation
 
-Install `mironovPik/phpcs-pre-commit-hook` with composer require command:
+Install `mironov-pik/phpcs-pre-commit-hook` with composer require command:
 
-    composer require "mironovPik/phpcs-pre-commit-hook"
+    composer require "mironov-pik/phpcs-pre-commit-hook"
 
-Or alternatively, include a dependency for `mironovPik/phpcs-pre-commit-hook` in your composer.json file manually:
+Or alternatively, include a dependency for `mironov-pik/phpcs-pre-commit-hook` in your composer.json file manually:
 
     {
         "require-dev": {
-            "mironovPik/phpcs-pre-commit-hook": "*"
+            "mironov-pik/phpcs-pre-commit-hook": "*"
         }
     }
 
