@@ -1,5 +1,5 @@
 {
-    "name": "mironov-pik/phpcs-pre-commit-hook",
+    "name": "mironov-pik/pik-pre-commit-hook",
     "description": "PHPCS check before commit",
     "type": "scripts",
     "license": "GPL-3.0",
