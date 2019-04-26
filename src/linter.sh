@@ -1,6 +1,6 @@
 #!/bin/sh
 
-PROJECT=`php -r "echo dirname(dirname(realpath('$0')));"`
+PROJECT=`php -r "echo dirname(dirname(dirname(dirname(dirname(realpath('$0'))))));"`
 STAGED_FILES_CMD=`git diff --name-only origin/develop | grep \\\\.php`
 
 # Determine if a file list is passed
