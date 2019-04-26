@@ -6,6 +6,6 @@ class Installer
 {
     public static function install()
     {
-        system('sh vendor/mironovPik/pik-pre-commit-hook/src/setup.sh');
+        system('sh vendor/mironov-pik/pik-pre-commit-hook/src/setup.sh');
     }
 }
